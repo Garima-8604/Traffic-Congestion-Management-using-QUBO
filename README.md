@@ -7,7 +7,7 @@ This project focuses on managing traffic congestion during urban events by optim
 
 ## Project Structure
 
-### 1. [ReRouting Using QUBO](traffic_congestion_optimization.ipynb)
+### 1. [ReRouting Using QUBO](ReRouting_congestion_reduction.ipynb)
 This notebook addresses vehicle routing optimization to reduce traffic congestion. 
 Key steps include:
 - Preprocessing map and GPS data.
@@ -17,7 +17,7 @@ Key steps include:
 - Solving the QUBO with quantum annealing for optimized traffic flow.
 Note: Currently, for simplicity, the input data has alternate routes written it, it can be improved to find other short alternative routes using Dijkstra’s or A* algorithms
 
-### 2. [Traffic Signal Optimization Using QUBO](traffic_signal_optimization.ipynb)
+### 2. [Traffic Signal Optimization Using QUBO](Traffic_Signal_Optimization.ipynb)
 This notebook focuses on traffic signal control to minimize waiting times at intersections, particularly during high-demand events. The key steps include:
 - Processing road and traffic density data.
 - Formulating a QUBO matrix for signal control.
