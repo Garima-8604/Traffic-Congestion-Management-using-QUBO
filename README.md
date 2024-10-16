@@ -7,7 +7,7 @@ This project focuses on managing traffic congestion during urban events by optim
 
 ## Project Structure
 
-### 1. [Traffic Congestion Reduction Using QUBO](traffic_congestion_optimization.ipynb)
+### 1. [ReRouting Using QUBO](traffic_congestion_optimization.ipynb)
 This notebook addresses vehicle routing optimization to reduce traffic congestion. 
 Key steps include:
 - Preprocessing map and GPS data.
